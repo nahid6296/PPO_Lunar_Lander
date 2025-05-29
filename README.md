@@ -18,15 +18,3 @@ This repository contains a modular, organized implementation of the **Proximal P
 - ✅ Multi-episode video rendering (gameplay-style)
 - ✅ Final reward plots for each run
 
----
-
-## 🗂️ Folder Structure (Auto-created)
-
-```text
-Lunar_lander_Project/
-├── run_1/
-│   ├── weights/      ← PPO checkpoints every 50 episodes & final model
-│   ├── plots/        ← Reward vs Episode training graph
-│   └── videos/       ← Multi-episode gameplay video (rendered post-training)
-├── run_2/
-│   └── ...
